@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/images/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <nav id="nav2">
+                <a href="/index.html">Home</a>
+                <a href="/aboutUs.html">AboutUS</a>
+                <a href="/contact.html">Contact</a>
+                <a href="/benefitsTips.html">Benefits and Tips</a>
+                <a href="/information.html">More Information</a>
+                <a href="#">Raffle</a>
+            </nav>
+            <div>
+                <img id="logo" src="/images/logo.png" alt="Company logo">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h1 id="home">Home</h1>
+        </div>
+        <div>
+            <h2 id="snowy"><span id="snowy1">Snowy</span>Cream</h2>
+        </div>
+        <div class="principal">
+            <div class="iframe">
+                <h2 id="iframe1">Our location is located at:</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.04409735004!2d-118.74137263459457!3d34.02060846972091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sco!4v1712587628166!5m2!1ses-419!2sco"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form">
+                <form action="raffle.html" method="get">
+                    <label for="name">First Name</label>
+                    <br>
+                    <input type="text" id="name" required>
+                    <br>
+                    <label for="last">Last Name</label>
+                    <br>
+                    <input type="text" id="last" required>
+                    <br>
+                    <label for="meetZoom" id="meetOrZoom">Choose Meet or Zoom</label>
+                    <br>
+                    <select name="meetZoom" id="meetZoom" required>
+                        <option value="">--select an option</option>
+                        <option value="Meet">Meet</option>
+                        <option value="zoom">Zoom</option>
+                    </select>
+                    <br>
+                    <label for="date">Choose Date</label>
+                    <br>
+                    <input type="date" id="date" required>
+                    <br>
+                    <label for="pay">Payment Options</label>
+                    <br>
+                    <input type="radio" id="pay" name="payment" value="cs" required>
+                    <label for="pay">Cash</label>
+                    <br>
+                    <input type="radio" id="credit" name="payment" value="cr">
+                    <label for="credit">Credit Card</label>
+                    <br>
+                    <input type="radio" id="debit" name="payment" value="db">
+                    <label for="debit">Debit Card</label>
+                    <br>
+                    <label for="message">Message (Optional)</label>
+                    <br>
+                    <textarea name="message" id="message" ></textarea>
+                    <br>
+                    <input class="accept" type="checkbox" id="accept" required>
+                    <label id="accept1" for="accept">I accept terms and conditions</label>
+                    <input id="submit" type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p id="footer">Created By: Andres Rodas</p>
+    </footer>
+</body>
+
+</html>
